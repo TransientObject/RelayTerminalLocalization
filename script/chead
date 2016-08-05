@@ -1,0 +1,29 @@
+$ns at 1.0 "$n(2) label \"CH\""
+$ns at 1.0 "$n(2) add-mark $n(2) white"
+
+$ns at 1.0 "$n(3) label \"CH\""
+$ns at 1.0 "$n(3) add-mark $n(3) white"
+
+$ns at 1.0 "$n(4) label \"CH\""
+$ns at 1.0 "$n(4) add-mark $n(4) white"
+
+$ns at 1.0 "$n(5) label \"CH\""
+$ns at 1.0 "$n(5) add-mark $n(5) white"
+$ns at 50.5 "$n(5) label \"\""
+$ns at 50.5 "$n(5) delete-mark $n(5)"
+$ns at 50.3 "$n(5) color yellow"
+$ns at 50.4 "$n(5) color red"
+$ns at 51.0 "$n(11) label \"CH\""
+$ns at 51.0 "$n(11) add-mark $n(11) white"
+
+$ns at 1.0 "$n(6) label \"CH\""
+$ns at 1.0 "$n(6) add-mark $n(6) white"
+$ns at 31.5 "$n(6) label \"\""
+$ns at 31.5 "$n(6) delete-mark $n(6)"
+$ns at 31.3 "$n(6) color yellow"
+$ns at 31.4 "$n(6) color red"
+$ns at 32.0 "$n(12) label \"CH\""
+$ns at 32.0 "$n(12) add-mark $n(12) white"
+
+$ns at 1.0 "$n(7) label \"CH\""
+$ns at 1.0 "$n(7) add-mark $n(7) white"

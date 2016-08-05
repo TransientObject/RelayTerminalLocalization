@@ -1,0 +1,41 @@
+for {set i 2} {$i < $val(nn) } { incr i } {
+   set energy($i) [expr rand() * $val(initialenergy) ]
+   puts " energy for n($i) : $energy($i)" 
+	if { [expr $xval < 325] && [expr $yval < 488] && [expr $yval < 975] } {
+		if { $energy($i) > 1000 } {
+		set k $energy($i)
+		puts "energy is $k as n($i)";
+	}
+	}
+	if { [expr $xval > 325] && [expr $xval < 650] && [expr $yval < 488] } {
+		if { $energy($i) > 1000 } {
+		set l $energy($i)
+		puts "energy is $l as n($i)";
+	}
+	}
+	if { [expr $xval > 650] && [expr $xval < 975 ] && [expr $yval < 488] } {
+		if { $energy($i) > 1000} {
+		set m $energy($i)
+		puts "energy is $m as n($i)";
+	}
+	}
+	if { [expr $xval < 325] && [expr $yval > 488] && [expr $yval < 975] } {
+		if { $energy($i) > 1000 } {
+		set n $energy($i)
+		puts "energy is $n as n($i)";
+	}
+	}
+	if { [expr $xval > 325] && [expr $xval < 650] && [expr $yval > 488] && [expr $yval < 975] } {
+		if { $energy($i) > 1000 } {
+		set o $energy($i)
+		puts "energy is $o as n($i)";
+	}
+	}
+	if { [expr $xval > 650] && [expr $yval > 488] && [expr $yval < 975] && [expr $xval < 975 ] } {
+		if { $energy($i) > 1000 } {
+		set p $energy($i)
+		puts "energy is $p as n($i)";
+	}
+	}
+}
+
